@@ -1,0 +1,16 @@
+{
+  "require": {
+    "php": "^7.1.3",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "illuminate/database": "^5.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lib\\": "lib/",
+      "Model\\": "model/",
+      "Service\\": "service/"
+    }
+  }
+}
